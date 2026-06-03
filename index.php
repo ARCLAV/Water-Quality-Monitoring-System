@@ -82,15 +82,15 @@ $html .= "
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'lavateinn04@gmail.com'; // CHANGE
-        $mail->Password   = 'khzuqpnekroepkxu'; // USE APP PASSWORD
-        $mail->SMTPSecure = 'tls';
-        $mail->Port       = 587;
+        $mail->Username   = ''; // CHANGE
+        $mail->Password   = ''; // USE APP PASSWORD
+        $mail->SMTPSecure = '';
+        $mail->Port       = ;
 
-        $mail->setFrom('lavateinn04@gmail.com', 'Water Monitoring System');
-        $mail->addAddress('soorajgmenon04.nava@gmail.com');
-        $mail->addAddress('ananddineshan008@gmail.com');
-        $mail->addAddress('menonk2005@gmail.com');
+        $mail->setFrom('Add Email', 'Water Monitoring System');
+        $mail->addAddress('Add Email');
+        $mail->addAddress('Add Email');
+        $mail->addAddress('Add Email');
 
         $mail->Subject = 'Water Quality PDF Report';
         $mail->Body    = 'Attached is the latest water quality history report.';
