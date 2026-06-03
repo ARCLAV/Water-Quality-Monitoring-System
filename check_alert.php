@@ -30,8 +30,8 @@ if ($result->num_rows > 0) {
         $message .= "Temperature: $temperature °C";
 
         $postData = [
-            'From' =>
-            'To'   => 
+            'From' =>$phonenumber
+            'To'   =>$phonenumber
             'Body' => $message
         ];
 
